@@ -1,6 +1,6 @@
 Diagram database penjualan_produk
 <p align="center">
-  <img width="460" height="300" src="https://i.imgur.com/l5A2l14.png">
+  <img width="460" height="300" src="https://github.com/yurisaprilian/praktik-1/assets/160213851/bae2851d-8ddd-4bcf-a78e-6018602e572c">
 </p>
 
 List data barang
