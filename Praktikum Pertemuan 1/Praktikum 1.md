@@ -8,7 +8,7 @@ Buka localhost pada browser
   <img width="460" height="300" src="https://i.imgur.com/1Jn7Zrz.jpeg">
 </p>
 
-Berikutnya melakukakan restore basis data penjualan_produk melalui menu import
+Buat Database baru dengan nama penjualan_produk
 <p align="center">
   <img width="460" height="300" src="https://i.imgur.com/kCdoRPu.jpeg">
 </p>
