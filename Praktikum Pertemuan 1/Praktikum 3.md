@@ -12,6 +12,7 @@ Tambahkan data penjualan baru ke database.
 
 <h1>SOAL 2 </h1>
 Tambahkan data penjualan sebagaimana berikut.
+
 1.	kode_penjualan = 2
 2.	tgl = 10 Februari 2021
 3.	kasir = Dini
