@@ -1,5 +1,7 @@
 <h1> SOAL 1 </h1>
 Tambahkan data penjualan baru ke database.
+
+
 1.	kode_penjualan = 3 
 2.	tgl = 8 Februari 2021
 3.	kasir = Dini
