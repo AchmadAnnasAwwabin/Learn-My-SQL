@@ -43,6 +43,7 @@ Data dapat ditambahkan ke database, tetapi nominal harga berubah menjadi 5.
 <h1> SOAL 5 </h1>
 Nominal harga berubah menjadi 5 karena adanya tanda titik "." pada angka 5.000.
 Jadi hapus tanda titik "." dari angka 5.000 sehingga menjadi 5000.
+(tidak ada solusi karna data dapat ditambahkan tanpa error)
 
 
 <h1> SOAL 6 </h1>
