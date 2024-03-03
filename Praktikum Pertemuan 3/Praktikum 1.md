@@ -34,24 +34,23 @@ Ambil contoh database dari yang anda gunakan pada tugas jobsheet sebelumnya. Bua
 <h3> Tahap 1 </h3>
 Tahap 1, Mengidentifikasi entitas (elemen pokok) yang diperlukan dalam basis data sesuai kebutuhan.
 <p align="center">
-  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/661e29b4-eb89-47b9-a8f3-ccb55cc7ec94">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/790e5514-dbf5-48c0-823e-f579710d7949">
 </p>
 
 <h3> Tahap 2 </h3>
 Tahap 2, Mengidentifikasi atribut (ciri) dari setiap entitas dengan memperhatikan persyaratan.
 <p align="center">
-  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/d6983a81-014e-4b03-a594-f5204a502118">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/1fadeb53-936b-4cfd-a3e3-2a95c35a3562">
 </p>
 
 <h3> Tahap 3 </h3>
 Tahap 3, Mengidentifikasi relasi antara entitas-entitas dengan mempertimbangkan persyaratan.
 <p align="center">
-  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/a4336a49-ebd7-4677-9e47-a5519636d70f">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/59cb5d42-ca9c-4b47-8e63-877e06ce5794">
 </p>
 
 <h3> Tahap 4 </h3>
 Tahap 4, Menyusun diagram ER secara manual.
 <p align="center">
-  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/64907f7c-d017-4602-8372-321725a3eae8">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/3a47d9e9-6dad-4d17-a0b1-229d24d51ca6">
 </p>
-
