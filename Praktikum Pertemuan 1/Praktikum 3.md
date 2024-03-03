@@ -7,7 +7,7 @@ Tambahkan data penjualan baru ke database.
 3.	kasir = Dini
 4.	total_penjualan = 10.000
 <p align="center">
-  <img width="460" height="300" src="https://i.imgur.com/LxUH0JM.png">
+  <img width="700" height="300" src="https://i.imgur.com/pHBUbnq.png">
 </p>
 
 <h1>SOAL 2 </h1>
@@ -17,9 +17,6 @@ Tambahkan data penjualan sebagaimana berikut.
 2.	tgl = 10 Februari 2021
 3.	kasir = Dini
 4.	total_penjualan = 20.000
-<p align="center">
-  <img width="460" height="300" src="https://i.imgur.com/GOAExIq.png">
-</p>
 <p align="center">
   <img width="460" height="300" src="https://i.imgur.com/2FcZ2pH.png">
 </p>
@@ -31,12 +28,12 @@ Kode penjualan tidak dapat diduplikasi.
 Solusi:
 Ubah kode penjualan dari 2 menjadi 4.
 <p align="center">
-  <img width="460" height="300" src="https://i.imgur.com/qW5VQP4.png">
+  <img width="700" height="300" src="https://i.imgur.com/bF7Nlx0.png">
 </p>
 
 <h1> SOAL 4 </h1>
 <p align="center">
-  <img width="460" height="300" src="https://i.imgur.com/L2eIkem.png">
+  <img width="700" height="300" src="https://i.imgur.com/b7ht0ic.png">
 </p>
 Data dapat ditambahkan ke database, tetapi nominal harga berubah menjadi 5.
 
