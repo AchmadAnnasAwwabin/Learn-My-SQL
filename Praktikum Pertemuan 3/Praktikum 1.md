@@ -1,4 +1,6 @@
-<h1> Praktikum Basis Data Pertemuan 3 </h1>
+<p align="center">
+  <h1> Praktikum Basis Data Pertemuan 3 </h1>
+</p>
 
 <h3> Soal 1 </h3>h3
 Buatlah rancangan sebuah database untuk toko online. Data-data yang akan ditanganinya adalah:
