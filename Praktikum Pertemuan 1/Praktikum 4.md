@@ -11,7 +11,7 @@ Data tidak dapat ditambahkan karena primary key 2 dan 3 telah ditambahkan sebelu
 
 Penghapusan garis hubung antara tabel penjualan dan detail_penjualan.
 <p align="center">
-  <img width="460" height="300" src="https://i.imgur.com/oNtpp7o.png">
+  <img width="800" height="300" src="https://i.imgur.com/oNtpp7o.png">
 </p>
 
 Data tidak dapat ditambahkan karena nilainya sudah ada atau data tersebut pernah ditambahkan sebelumnya.
