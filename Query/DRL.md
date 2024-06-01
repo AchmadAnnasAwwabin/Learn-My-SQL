@@ -1,3 +1,4 @@
+<h2> Soal 1 </h2>
 Himpunlah screenshot sintaksis SQL berikut hasil SELECT yang Anda dapat di komputer Anda pada bagian Praktikum<br>
 <p align="center">
   <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/d51c3bcf-1ac7-48bb-b8b7-f8812be97c5f">
@@ -78,25 +79,29 @@ Himpunlah screenshot sintaksis SQL berikut hasil SELECT yang Anda dapat di kompu
   <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/7684d608-c613-46d9-a173-a48c8e1ae75f">
 </p>
 
+<h2> Soal 2 </h2>
 Bagaimana sintaksis untuk menampilkan semua kolom jadwal pada hari kamis yang dimulai pada pukul 08:40 ? Tunjukkan outputnya!<br>
 <p align="center">
-  <img width="1224" height="231" src="https://i.imgur.com/f6QhkI1.png">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/7ad038bb-ee90-4f07-90f5-4051f60ad0fb">
 </p>
 
+<h2> Soal 3 </h2>
 Berapakah jumlah dosen yang mengajar pada hari selasa! Tunjukkan sintaksis dan outputnya! Kemudian tampilkan list semua kode dosen yang sesuai dengan kondisi tersebut! Tunjukkan sintaksis dan outputnya!<br>
 <p align="center">
-  <img width="1392" height="172" src="https://i.imgur.com/OLlDcNB.png">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/a5890f6e-356f-4b47-b388-3312fc73ada7">
 </p>
 <p align="center">
-  <img width="1122" height="662" src="https://i.imgur.com/Z1moNkE.png">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/36dc4cef-178f-4e1c-a676-daf09c27d0d0">
 </p>
 
+<h2> Soal 4 </h2>
 Tampilkan kode dosen yang mengajar pada hari kamis dari tabel jadwal yang nama depanya di awali dengan huruf A. gunakan operasi intersect! Tunjukkan sintaksis dan output dari pencarian tersebut.<br>
 <p align="center">
-  <img width="930" height="519" src="https://i.imgur.com/lzRA92H.png">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/111fe74d-9502-49ee-8d87-ed55d4a2e0e9">
 </p>
 
+<h2> Soal 5 </h2>
 Tampilkan kode_ruang tertentu pada hari tertentu dengan diurutkan berdasarkan dengan kode jam yang ter awal.<br>
 <p align="center">
-  <img width="918" height="976" src="https://i.imgur.com/Xshtzs9.png">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/2fb17d72-d7ab-42a7-90ed-86e8c6ebe0d8">
 </p>
