@@ -1,59 +1,49 @@
-<h2>01.Querry Demo :</h2> <br>
+<h2>SOAL 1</h2><br>
+Seorang mahasiswa ingin membuat sebuah aplikasi todo app dimana dengan menggunakan aplikasi ini mahasiswa tersebut dapat melakukan management terhadap tugas tugas yang harus dilaukaannya dalam sebuah aplikasi web.
 
-SELECT nama_user
-FROM user
-WHERE jenis_kelamin="P"
-ORDER BY nama_user ASC
+Aplikasi ini mengharuskan user melakukan login dengan menggunakan username dan password, username pada aplikasi ini harus unique dan tidakboleh sama dengan username dari user lain. password pada aplikasi ini harus di enkripsi dan memiliki panjang minimal 8 karakter terdiri dari angka dan huruf serta minimal satu simbol.
+
+seorang user boleh membuat banyak todo item setiap todo item memiliki todo item id yang unik serta mempunyai task description yang berupa text panjang serta memiliki attribut attribut ini harus dipilih salah satu di antara 3 status yaitu “planned”,“ongoing”, dan “done”. 
+
+Sebelum membuat sebuah todo user harus membuat minimal satu atau lebih category, kategory ini mempunyai category id yang unik dan info mengenai category name yang memiliki panjang minimal 5 karakter dan maksimal 20 karakter.
+
+Sebuah category dapat digunakan pada banyak todo item dan satu todo item wajib memiliki satu kategory, tidak ada todo item yang tidak memiliki kategori.
 <p align="center">
-  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/15626a20-bb74-4b10-a165-24305ec55e09">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/335a2846-41b6-4ad7-ba67-ce9cdc4a93dc">
 </p>
 
-<h2>02.Querry Soal :</h2> <br>
+<h2>SOAL 2</h2><br>
+Seorang content creator membutuhkan bantuan anda untuk membuatkan platform publikasi kontent kontennya.
 
-SELECT nama_user, tanggal_lahir
-FROM user
-WHERE jenis_kelamin="L"
-ORDER BY tanggal_lahir DESC;
+Platform ini berbentuk sebuah website dimana konten creator tersebut dapat mempublikasikan karya karyanya dalam bentuk sebuah berita secara online di internet.
+
+Untuk masuk ke sistem berita online ini seorang user harus melakukan login dengan menggunakan email dan password yang sudah di tentukan sebelumnya. selain nama dan password perlu juga diketahui nama user untuk ditampilkan pada halaman profile nya serta ditambahkan pencatatan kapan tanggal daftar dan kapan tanggal login terakhir dari user tersebut, selain itu user juga memiliki user id yang unik untuk membedakan user yang satu dengan yang lain. User boleh memiliki nama yang sama tetapi tidak boleh memiliki email yang sama.
+
+Seorang user diperbolehkan menulis banyak berita dimana sebuah berita memiliki judul dan isi berita, judul berita berupa sebuah text yang panjang maksimalnya 255 karakter serta isi berita merupakan sebuah text yang panjang nya bebas sesuai kebutuhan. Selain judul dan isi berita juga perlu diberikan informasi mengenai tanggal berita dimana tanggal tersebut berisi tanggal kapan ditulisnya berita. Tentu saja berita memiliki id berita yang unik untuk membedakan satu berita dengan berita lainnya.
+
+Untuk mempermudah seorang pembaca berita membaca dan menavigasikan berita berita berita ini dikelompokkan dalam sebuah kategori, sebuah berita hanya boleh memiliki satu kategori tetapi sebuah kategori boleh dipakai pada lebih dari satu berita.
+
+Data yang disimpan pada kategori adalah nama kategori yang berupa sebuah text panjang yang maksimal 100 karakter dan sebuah category id yang unik.
+
+Selain menggunakan kategori sebuah berita juga dapat dikelompokkan berdasarkan sebuah tag/topik dimana sebuah berita boleh mempunyai banyak tag dan sebuah tag dapat dipasang pada lebih dari satu berita. Data yang disimpan pada tag adalah isi tag yang panjangnya maksimal 20 karakter dan id tag yang unik.
+
+Untuk mempermudah interaksi antara pembaca dan penulis di sistem berita ini setiap berita yang dibuat dapat diberi komentar sebuah berita dapat dikomentari lebih dari satu kali oleh pembaca data yang dicatat pada komentar adalah komentar id komentar id ini bersifat unik kemudian isi komentar berupa text panjang maksimal 255 karakter nama pemberi komentar dan email pemberi komentar email harus dalam format email yang benar serta dicatat juga tanggal komentarnya.
 <p align="center">
-  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/4cff2033-84bf-4466-9aee-1246f1475b03">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/6adf14ab-d8ee-4f36-9721-4c959bdccb08">
 </p>
 
-<h2>03.Course Join :</h2> <br>
+<h2>SOAL 3</h2><br>
+Sebuah perusahaan ingin membuat aplikasi ramalan cuaca, aplikasi ini mewajibkan usernya untuk login menggunakan username dan password, user juga wajib memiliki user id yang unik untuk setiap usernya selain itu username harus unik dan tidak boleh ada user yang memiliki username yang sama.
 
-SELECT
-  kursus.judul,
-  SUM(transaksi.total) AS total
-FROM kursus
-JOIN detail_transaksi ON detail_transaksi.id_kursus=kursus.id
-JOIN transaksi ON detail_transaksi.id_transaksi=transaksi.id
-WHERE transaksi.status = 'Completed'
-GROUP BY kursus.judul
-ORDER BY total DESC;
+Untuk melihat prakiraan cuaca seorang user dapat menambahkan minimal satu atau lebih kota yang ingin dilihat prakiraan cuacanya. Di aplikasi ini suatu kota juga dapat ditambahkan oleh user lain yang ingin mengetahui prakiraan cuaca di kota tersebut.
+
+Kota memiliki identifier yang unik bernama kota id, kota id tidak boleh sama antara satu kota dengan kota lain kota juga menyimpan informasi mengenai nama kota yang berisi text dengan maksimal panjang karakter 50.
+
+Sebuah kota terkelompokkan dalam sebuah negara dimana sebuah negara memiliki beberapa kota. data yang diperlukan untuk negara adalah negara id yang bersifat unik dan nama negara yang berisi text dengan maksimal panjang karakter 55.
+
+sebuah kota dapat memiliki banyak prakiraan cuaca, dimana prakiraan cuaca ini disimpan dengan data prakiraan id yang unik, tanggal prakiraan cuaca, temperatur terendah dan temperatur tertinggi.
+
+Setiap prakiraan cuaca memiliki maksimal satu kondisi cuaca dimana kondisi cuaca ini bersifat dinamis dapat ditambahkan secara mandiri oleh admin aplikasi, kondisi cuaca memiliki kondisi id yang bersifat unik dan nama kondisi yang berupa sebuah text dengan panjang maksimal 30 karakter. Kondisi cuaca ini dapat dipakai oleh lebih dari satu prakiraan cuaca.
 <p align="center">
-  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/dea125d2-5258-4232-b3e4-ce3118610079">
-</p>
-
-<h2>04.Hewan Join :</h2> <br>
-
-SELECT
-  user.nama,
-  SUM(pelayanan.harga) AS total
-FROM reservasi
-JOIN user ON user.id = reservasi.id_user
-JOIN pelayanan ON reservasi.id_pelayanan = pelayanan.id
-WHERE reservasi.status = 'Completed'
-GROUP BY user.nama
-ORDER BY total DESC
-LIMIT 1;
-<p align="center">
-  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/6d7b8a78-e57f-421e-9215-7808ea51af35">
-</p>
-
-<h2>05.Hewan Reservasi :</h2> <br>
-
-SELECT jenis_peliharaan, COUNT(jenis_peliharaan) AS total
-FROM reservasi
-GROUP BY jenis_peliharaan;
-<p align="center">
-  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/0be9b0dc-356d-4acd-8115-110a32da9385">
+  <img src="https://github.com/AchmadAnnasAwwabin/Learn-My-SQL/assets/160121014/09c6c210-92a0-481a-ba30-8a4457c050c7">
 </p>
